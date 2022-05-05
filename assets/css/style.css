@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+.header nav {
+    position: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 20rem;
+    z-index: 999;
+    text-align: center;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+}
+
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.upperbody {
+    flex-wrap: nowrap;
+    padding-bottom: 60rem;
+    font: normal 100%/1.5 "Titillium Web",sans-serif;
+    padding-top: 15rem;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.upperbody img {
+    max-height: 250px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.box {
+    text-align: center;
+    border-radius: 60%;
+}
+
+.upperbody h1 {
+    text-align: center;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: lighter;
+    font-size: 45px;
+    color: #d9dcd6;
+}
+
+.upperbody h2 {
+    text-align: center;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin:0%;
+    color: #d9dcd6;
+    padding-bottom: 1rem;
+}
+
+.upperbody h3 {
+    padding-left: 30rem;
+    padding-right: 30rem;  
+    color: #d9dcd6;  
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    width: 100%;
+    background-image: url("../images/110.webp");
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/110.webp");
+    background-color: red;
+    background-blend-mode: multiply;    
+}
+
+
+h1 {
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 50px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    color: white;
+    font-weight: lighter;
+}
+h2 {
+    font-weight: 300;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    color: white;
+}
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+h3 {
+    font-weight: 300;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 35px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 1rem;
+    color: white;
+}
+
+h4 {
+    font-weight: 300;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 2rem;
+    padding-right: 5rem;
+    color: white;
+}
+
+h5 {
+    font-weight: 200;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    font-size: 16px;
+}
+.content {
+    width: 100%;
+    align-items: center;
+    display: inline-block;
+    margin-left: 50px;
+}
+/* For the image cards towards the bottom of page */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* The boxes for the text centre page*/
+main section{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(133, 1, 1);
+    color: #FFFFFF;
+}
+main section img {
+    max-height: 200px;
+}
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.project_card_small p{
+    font-size: 13px;
+}
+
+.project_card_small img{
+    max-width: 290px;
+    padding-top: 15px;
+}
+/* Everything at the bottom of the page */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.footer h2 {
+    font-size: 20px;
+}
+
+
+
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.service img {
+    max-height: 200px;
+}
+
+.service h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
