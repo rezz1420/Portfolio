@@ -17,7 +17,7 @@ body {
 .header nav {
     position: fixed;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     top: 0;
@@ -205,7 +205,7 @@ main section h2 {
 }
 
 .project_card_small p{
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .project_card_small img{
