@@ -194,7 +194,6 @@ p {
 main section{
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(133, 1, 1);
     color: #FFFFFF;
@@ -213,7 +212,11 @@ main section h2 {
 
 .project_card_small img{
     max-width: 290px;
-    padding-top: 15px;
+}
+
+.big_project img{
+    max-height: 150px;
+    
 }
 /* Everything at the bottom of the page */
 .footer {
@@ -225,9 +228,6 @@ main section h2 {
 .footer h2 {
     font-size: 20px;
 }
-
-
-
 
 .float-left {
     float: left;
