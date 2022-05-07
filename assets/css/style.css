@@ -212,10 +212,12 @@ main section h2 {
 
 .project_card_small img{
     max-width: 290px;
+    padding-bottom: 90px;
 }
 
 .big_project img{
     max-height: 150px;
+    padding-bottom: 30px;
     
 }
 /* Everything at the bottom of the page */
